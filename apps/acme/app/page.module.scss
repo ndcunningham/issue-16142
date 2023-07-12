@@ -1,2 +1,8 @@
+@use 'variables' as *;
+
 .page {
+}
+
+.welcome {
+    color: $primary-color;
 }

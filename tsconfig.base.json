@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@acme/my-shared-lib": ["libs/my-shared-lib/src/index.ts"],
+      "@acme/my-shared-lib/server": ["libs/my-shared-lib/src/server.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
